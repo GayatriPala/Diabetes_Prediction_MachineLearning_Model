@@ -1,2 +1,20 @@
-# Diabetes_Prediction_MachineLearning_Model
-Diabetes Prediction Using SVM: Built a Support Vector Machine model using the Pima Indians Diabetes dataset to predict diabetes. Achieved 78% training accuracy by applying data preprocessing and standard scaling. Implemented in Python and scikit-learn with an interactive Colab notebook for predictions.
+# Diabetes Prediction Using Machine Learning
+
+## Project Overview
+This project predicts whether a person has diabetes or not using the **Pima Indians Diabetes dataset**. A machine learning model is trained to analyze various health parameters and provide predictions.
+
+## Features
+- Accepts inputs such as pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age.
+- Predicts if the person is diabetic or not.
+- Implemented in Python using **scikit-learn**.
+- Includes data preprocessing with **standard scaling** for accurate predictions.
+
+## Dataset
+- The project uses the **Pima Indians Diabetes dataset**.
+- The dataset is included in the repository as `dataset.csv`.
+
+## How to Use
+1. Open the notebook `Diabetes_Prediction.ipynb` in **Google Colab** or **Jupyter Notebook**.
+2. Ensure all required libraries are installed: `numpy`, `pandas`, `scikit-learn`.
+3. Run all the cells to train the model and make predictions.
+4. You can input new data to test predictions. Example:  
